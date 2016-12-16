@@ -1,4 +1,4 @@
-package Exercicio3;
+package Exercicio345;
 
 public class TestaFuncionarios {
 

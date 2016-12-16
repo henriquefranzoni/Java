@@ -8,12 +8,12 @@ public class Exercicio5 {
 	
 
 	
-	public int[] RecebeInteiro (){
+	//public int[] RecebeInteiro (){
 		int x = 1;
 		int numeosInteiros [] = new int[5];
-		return x;
+		//return x;
 		
 	}
 	
 
-}
+//}

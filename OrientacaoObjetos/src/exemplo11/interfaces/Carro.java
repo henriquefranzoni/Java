@@ -2,6 +2,8 @@ package exemplo11.interfaces;
 
 public class Carro implements Movel {
 
+	double velocidade;
+	
 	@Override
 	public void mover() {
 		System.out.println("Carro correndo");
@@ -15,7 +17,8 @@ public class Carro implements Movel {
 	}
 
 	@Override
-	public double getVelocidade() {		
+	public double getVelocidade() {	
+		this.velocidade *= 10;
 		return 0;
 	}
 	
