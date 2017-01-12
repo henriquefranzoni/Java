@@ -6,8 +6,8 @@ public class ContaCorrenteComLimite extends ContaCorrente {
 	
 	boolean saca(double valor){
 		if(valor <= (saldo + limite)){
-			saldo -= valor;
-			limite -= valor;
+			saldo = saldo - valor;
+			limite = limite - valor;
 			return true;
 		}
 		return false;

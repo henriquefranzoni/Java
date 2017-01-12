@@ -9,14 +9,14 @@ public class TestaGereFunci {
 	
 		Funcionario funcionariozinho = new Funcionario();
 		
-		funcionariozinho.RegistraEntrada();
-		funcionariozinho.RegistraSaida();
-		funcionariozinho.ResgistraHoraExtra();
+		//funcionariozinho.RegistraEntrada();
+		//funcionariozinho.RegistraSaida();
+		//funcionariozinho.ResgistraHoraExtra();
 		
 		Gerente gerentinho = new Gerente();
 		
-		gerentinho.RegistraSaida();
-		gerentinho.ResgistraHoraExtra();
+		//gerentinho.RegistraSaida();
+	//	gerentinho.ResgistraHoraExtra();
 		
 		
 	}

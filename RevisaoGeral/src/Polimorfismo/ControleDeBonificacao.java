@@ -4,12 +4,12 @@ public class ControleDeBonificacao {
 	
 	double totalDeBonificaoes;
 	
-	public registra(Funcionario){
+	public void registra Funcionario(funcionario){
 		
 	}
 	
 	
-	public getTotalDeBonificacao(){
+	public void getTotalDeBonificacao(){
 		return totalDeBonificacao;
 	}
 

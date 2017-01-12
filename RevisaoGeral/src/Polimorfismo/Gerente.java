@@ -1,27 +1,22 @@
 package Polimorfismo;
 
-import Exercicio6.RegistraPonto;
+public class Gerente extends Funcionario {
 
-public class Gerente implements RegistraPonto {
+	String senha;
+	int numeroDeFuncionarios;
 
-	
-	public void RegistraEntrada() {
-		System.out.println("Registrando apenas a Entrada!!");
-
-	}
-
-	
-	@Override
-	public void ResgistraHoraExtra() {
-		System.out.println("Essas são as suas horas Extras!");
+	public double getBonificacao() {
+		return salario *= 0.15;
 
 	}
-
-
-	@Override
-	public void RegistraSaida() {
-		// TODO Auto-generated method stub
+	
+	public void getInfo(String){
+		return 
+		super.salario;
+		super.cpf;
+		super.nome;
+		}
 		
 	}
 
-}
+

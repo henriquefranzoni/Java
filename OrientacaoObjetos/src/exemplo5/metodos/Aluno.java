@@ -12,7 +12,7 @@ public class Aluno {
 		int soma = bim1 + bim2 + bim3 + bim4;
 		int media = soma / 4;
 		return media;
-	}
+		}
 
 	public boolean foiAprovado() {
 

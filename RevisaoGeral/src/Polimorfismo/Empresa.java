@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 
 public class Empresa {
 
 	public static void main(String[] args) {
+
+		Scanner Leitor = new Scanner(System.in);
 
 		List<String> listaFuncionario = new ArrayList<>();
 
@@ -21,23 +24,15 @@ public class Empresa {
 		listaFuncionario.add("Leticia");
 
 		
-			for (int i = 0; i < listaFuncionario.size(); i++) {
-			System.out.println(listaFuncionario.get(i));
-			}
-
-				
-			for (String imprimirConteudo : listaFuncionario)
+		for (String imprimirConteudo : listaFuncionario)
 			System.out.println(imprimirConteudo);
-			
-				 listaFuncionario.remove("Leticia");
-		         System.out.println( "Estes foram os funcionário que restaram na empresa: " + Arrays.toString( listaFuncionario.toArray() ) );
-								
-			}
-			
-			
+
+		System.out.println("Entre com o Funcionario a ser contratado:");
+		listaFuncionario.add(Leitor.next());
+
+		System.out.println("Entre com o funcionário a ser Demitido:");
+		listaFuncionario.remove(Leitor.toString());
+
 	}
-			
-			
-			
-			
-			
+
+}

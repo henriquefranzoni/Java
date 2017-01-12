@@ -4,11 +4,10 @@ public class Gerente extends Funcionario {
 	
 	String senha;
 	int numeroDeFuncionarios;
-	
-	
-	public double getBonificacao(){
+
+	public double getBonificacao() {
 		return salario *= 0.15;
-		
+
 	}
 
 }
